@@ -51,3 +51,4 @@ SELECT * FROM employees;
 
 DROP TABLE employees;
 
+CREATE DATABASE adnan_db1;
