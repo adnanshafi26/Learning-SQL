@@ -35,3 +35,13 @@ SET age = 30
 WHERE age < 21;
 -- verify data
 SELECT * FROM students;
+
+-- DELETE (Remove Data)
+DELETE FROM students
+WHERE id = 3;
+-- Delete multiple rows
+DELETE FROM students
+WHERE age > 22;
+-- verify data
+SELECT * FROM students;
+
