@@ -40,7 +40,7 @@ GROUP BY department
 HAVING COUNT(*) > 1;
 
 -- WHERE → filters rows
--- HAVING → filters groups
+--  HAVING → filters groups
 
 
 
